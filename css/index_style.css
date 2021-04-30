@@ -1,0 +1,36 @@
+h2
+{
+
+  color:black;
+}
+
+p{
+ font-weight:bold;
+ color: rgb(51, 51, 51);
+
+}
+.box
+{
+  background-color: #EEE !important;
+
+}
+.btn
+{
+  margin: 15px 5px;
+ 
+}
+.form-control:focus
+{
+ border-color: #111811;
+ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075)
+ inset, 0 0 8px rgba(10, 17, 11, 0.5);
+}
+
+.page2
+{
+
+    background-image: linear-gradient(#EEE,#FFF);
+    
+
+}
+
