@@ -18,11 +18,37 @@
 
     </div>
 </header>
+
+<!-- head of bookmark table -->
+<div class="container mt-3 ">
+
+    <div class="row caption text-white m-0 ">
+        <div class="col-lg-6">
+            <div>
+                <h3> Manage Your Bookmark</h3>
+            </div>
+        </div>
+        <div class="col-lg-6 ">
+            <div class="text-center">
+                <!-- <button id="deletemultiple" class="bg-danger btn text-white py-1 px-2 m-3"><i
+                        class="fas fa-trash-alt"></i> Delete</button> -->
+                <button id="addnewbtn" class="bg-success btn text-white py-1 px-2"><i class="fas fa-plus"></i>
+                    Add New Bookmark</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="addPages">
+    </div>
+
+</div>
+
 <!-- start of the bookmark  -->
+
 <section>
-    
-    <div class="box container p-5 text-center bg-secondary">
-      
+    <!-- create fixed layer -->
+   <div id="fixedlayer" class="d-flex">
+    <div class="box container p-5 text-center bg-secondary position-relative">   
     <h2>
         Bookmark your favorite sites
     </h2>
@@ -31,16 +57,11 @@
     <p>Site URL</p>
     <input id="siteUrlInput" class="form-control" placeholder="Website URL" type="text">
     <button onclick="addBookMarks()" class="btn btn-primary btn-lg ">submit</button>
-
+    <i class="fas fa-window-close" id="btnClose"></i>
+</div> 
 </div>
 </section>
 
-
-<section id="addPages" >
-   
-
-
-</section>
 
 <!-- end of the bookmark  -->
 <!--===============footer===========-->
